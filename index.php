@@ -50,15 +50,22 @@
 
         //create a new element answers1 in the $question-element and store the new array $answers1 in this element
         $questions['answers1'] = $answers1;
+        ?>
 
-        //DevOnly: Print Output to see what is in the array $questions
-        print "<pre/>";
-        print_r($questions);
-        exit ();
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-12">
+                    <?php
+                            //DevOnly: Print Output to see what is in the array $questions
+                            print "<pre/>";
+                            print_r($questions);
+                            exit ();
+                    ?>
 
+                </div>
+            </div>
+    </div>
 
-
-    ?>
 
     
 </body>
